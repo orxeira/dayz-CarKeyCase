@@ -13,7 +13,6 @@ class CfgVehicles
     class Inventory_Base;
     class ExpansionCarKey: Inventory_Base
     {
-        itemSize[] = {1,1};
         inventorySlot[] = {
 			"ExtensionCarKey1",
 			"ExtensionCarKey2",

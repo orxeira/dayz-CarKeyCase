@@ -2,21 +2,20 @@ class CfgPatches
 {
 	class orxe_car_key_case
 	{
-        units[] = {};
-		weapons[]={};
-		requiredVersion=0.1;
-		requiredAddons[]=
-		{
-			"DZ_Characters",
-			"DZ_Characters_Backpacks"
-		};
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] =
+			{
+				"DZ_Data"};
 	};
 };
 
 class CfgMods
 {
-    class CarKeyCase
-    {
+	class CarKeyCase
+	{
+		dir = "CarKeyCase";
 		picture = "";
 		action = "";
 		hideName = 1;
@@ -28,5 +27,14 @@ class CfgMods
 		version = "1.0";
 		extra = 0;
 		type = "mod";
+		dependencie[] = {"World"};
+		class defs
+		{
+			class worldScriptModule
+			{
+				value = "";
+				files[] = {"CarKeyCase\scripts\4_World"};
+			};
+		};
 	};
 };

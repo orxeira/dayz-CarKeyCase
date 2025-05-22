@@ -22,6 +22,7 @@ class CfgVehicles
 			"ExtensionCarKey6",
 			"ExtensionCarKey7",
 			"ExtensionCarKey8",
+			"Orxe_CarKeyCase"
 		};
     };
 };

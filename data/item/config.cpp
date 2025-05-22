@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class DZ_Gear_Containers
 	{
-		units[]={};
+		units[]={ "Orxe_CarKeyCase" };
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -37,6 +37,79 @@ class CfgVehicles
             "ExtensionCarKey7",
             "ExtensionCarKey8",
         };
+        class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=7500;
+				};
+			};
+			class GlobalArmor
+			{
+                class Projectile
+				{
+					class Health
+					{
+						damage=0;
+					};
+					class Blood
+					{
+						damage=0;
+					};
+					class Shock
+					{
+						damage=0;
+					};
+				};
+                class Melee
+				{
+					class Health
+					{
+						damage=0;
+					};
+					class Blood
+					{
+						damage=0;
+					};
+					class Shock
+					{
+						damage=0;
+					};
+				};
+                class Infected
+				{
+					class Health
+					{
+						damage=0;
+					};
+					class Blood
+					{
+						damage=0;
+					};
+					class Shock
+					{
+						damage=0;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage=0;
+					};
+					class Blood
+					{
+						damage=0;
+					};
+					class Shock
+					{
+						damage=0;
+					};
+				};
+			};
+		};
         canBeDigged=0;
 		isMeleeWeapon=0;
         hiddenSelections[]=

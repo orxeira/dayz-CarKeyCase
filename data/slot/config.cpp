@@ -13,10 +13,10 @@ class CfgVehicles
 	class Man;
 	class SurvivorBase: Man
 	{
-		attachments[] += { "Orxe_CarKeyCase" };
+		attachments[] += { "Orxe_CarKeyCase", "ExpansionCarKey" };
 		class InventoryEquipment
 		{
-			playerSlots[] = { "Slot_CarKeyCase" };
+			playerSlots[] += { "Slot_CarKeyCase" };
 		};
 	};
 };

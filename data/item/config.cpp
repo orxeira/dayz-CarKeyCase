@@ -38,6 +38,11 @@ class CfgVehicles
 				"ExtensionCarKey6",
 				"ExtensionCarKey7",
 				"ExtensionCarKey8",
+				"SparkPlug",
+				"Notebook",
+				"Wrench",
+				"TireRepair",
+				
 			};
 		class DamageSystem
 		{
@@ -174,6 +179,30 @@ class CfgSlots
 	{
 		name = "ExtensionCarKey8";
 		displayName = "Car Key";
+		ghostIcon = "set:dayz_inventory image:pouches";
+	};
+	class Slot_Notebook
+	{
+		name = "Notebook";
+		displayName = "Notebook";
+		ghostIcon = "set:dayz_inventory image:pouches";
+	};
+	class Slot_SparkPlug
+	{
+		name = "SparkPlug";
+		displayName = "Spark Plug";
+		ghostIcon = "set:dayz_inventory image:pouches";
+	};
+	class Slot_TireRepair
+	{
+		name = "TireRepair";
+		displayName = "Tire RepairKit";
+		ghostIcon = "set:dayz_inventory image:pouches";
+	};
+	class Slot_Wrench
+	{
+		name = "Wrench";
+		displayName = "Wrench";
 		ghostIcon = "set:dayz_inventory image:pouches";
 	};
 };
